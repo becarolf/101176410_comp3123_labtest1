@@ -7,13 +7,6 @@
       - Call both promises separately and handle the resolved and reject
       results and then output to the console*/
 
-      // const delayedSuccess = () => {
-//   setTimeout(() => {
-//     let success = { message: "delayed success!" };
-//     console.log(success);
-//   }, 500);
-// };
-
 const resolvedPromise = () => {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
